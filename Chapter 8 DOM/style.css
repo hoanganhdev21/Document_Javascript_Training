@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container2.is-active {
+  color: blue;
+}
+
+.boxed {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border: 5px solid #333;
+}

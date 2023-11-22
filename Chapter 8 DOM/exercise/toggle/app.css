@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+.menu {
+  width: 300px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  list-style: none;
+  text-decoration: none;
+  transform: translateX(100%);
+  transition: all 0.25s ease-in;
+}
+.menu-link {
+  display: block;
+  padding: 20px 15px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+  list-style: none;
+  font-weight: 600;
+}
+
+.menu.is-show {
+  transform: translateX(0%);
+}

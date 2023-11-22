@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event in Javascript</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- EVENT CLICK -->
+    <button class="button">Button</button>
+    <button class="button2">
+      <span>Button</span>
+    </button>
+    <button class="button3">
+      <span>Button</span>
+    </button>
+    <a href="https://github.com/" class="link">Github</a>
+    <!-- Tuy xuất giá trị custom attribute -->
+    <a href="https://google.com/" class="link2" data-name-abc="google"
+      >Google</a
+    >
+
+    <!-- SỰ KIỆN VỀ DI CHUYỂN CHUỘT -->
+    <button class="button-mouse">
+      <span>Button Mouse</span>
+    </button>
+
+    <!-- NHỮNG KIẾN THỨC LIÊN QUAN VỀ QUAN VỀ FORM -->
+    <input type="text" class="input" placeholder="keydown..." />
+    <input type="text" class="input2" placeholder="keyup..." />
+    <input type="text" class="input3" placeholder="keypress..." />
+
+    <!-- SỰ KIỆN SUBMIT FORM -->
+    <form class="form">
+      <input type="text" placeholder="Submit Form ...." class="input4" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <form class="form2">
+      <!-- Name là định danh giống như id nhưng nó có thể trùng còn id thì không -->
+      <input
+        type="text"
+        name="username"
+        id=""
+        class="input5"
+        placeholder="Text..."
+      />
+      <input type="checkbox" name="hobby" id="" value="badminton" /> Badminton
+      <input type="checkbox" name="hobby" id="" value="football" /> Football
+      <input type="radio" name="gender" id="" value="male" /> Male
+      <input type="radio" name="gender" id="" value="female" /> Female
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- NHỮNG CÁI LIÊN QUAN ĐẾN SCROLL -->
+    <div class="boxed">
+      <div class="boxed-content"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

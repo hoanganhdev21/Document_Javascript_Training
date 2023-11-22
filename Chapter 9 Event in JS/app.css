@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.button,
+.button2,
+.button3,
+.button-mouse {
+  padding: 20px;
+  color: #fff;
+  background-color: #ffa400;
+  border: 0;
+  margin: 50px auto;
+  display: block;
+  width: 300px;
+}
+
+/* SỰ KIỆN LIÊN QUAN ĐẾN FORM */
+.input,
+.input2,
+.input3 {
+  padding: 15px;
+  border: 1px solid #333;
+  font-size: 15px;
+  width: 300px;
+  margin: 50px auto;
+  display: block;
+  outline: none;
+}
+
+.boxed {
+  height: 200px;
+  width: 200px;
+  background-color: #ffa400;
+  overflow-y: auto;
+}
+.boxed-content {
+  height: 600px;
+}
